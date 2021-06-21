@@ -25,31 +25,31 @@
 
 <h3>SMOTE</h3>
 <p align='center'>
-  <img src='' alt='SMOTE Results Output'><br>
+  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/SMOTE.PNG?raw=true' alt='SMOTE Results Output' width=75% height=75%><br>
   <b>Figure 1.2:</b> SMOTE Results Output
 </p>
 
 <h3>ClusterCentroids</h3>
 <p align='center'>
-  <img src='' alt='ClusterCentroids Results Output'><br>
+  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/ClusterCentroids.PNG?raw=true' alt='ClusterCentroids Results Output' width=75% height=75%><br>
   <b>Figure 1.3:</b> ClusterCentroidsResults Output
 </p>
 
 <h3>SMOTEENN</h3>
 <p align='center'>
-  <img src='' alt='SMOTEENN Results Output'><br>
+  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/SMOTEENN.PNG?raw=true' alt='SMOTEENN Results Output' width=75% height=75%><br>
   <b>Figure 1.4:</b> SMOTEENN Results Output
 </p>
 
 <h3>BalancedRandomForestClassifier</h3>
 <p align='center'>
-  <img src='' alt='BalancedRandomForestClassifier Results Output'><br>
+  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/BalancedRandomForestClassifier.PNG?raw=true' alt='BalancedRandomForestClassifier Results Output' width=75% height=75%><br>
   <b>Figure 1.5:</b> BalancedRandomForestClassifier Results Output
 </p>
 
 <h3>EasyEnsembleClassifier</h3>
 <p align='center'>
-  <img src='' alt='EasyEnsembleClassifier Results Output'><br>
+  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/EasyEnsembleClassifier.PNG?raw=true' alt='EasyEnsembleClassifier Results Output' width=75% height=75%><br>
   <b>Figure 1.6:</b> EasyEnsembleClassifier Results Output
 </p>
 
