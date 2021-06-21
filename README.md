@@ -4,47 +4,53 @@
 
 <h3>Purpose</h3>
 <p>
-  The purpose of this analysis was to provide insights on which, if any, of the various offerings from the imbalanced-learn and scikit-learn libraries provided a reliable model for evaluating credit risk.  The 6 different means are listed below:<br>
+  The purpose of this analysis was to provide insights on which, if any, of the various offerings from the imbalanced-learn and scikit-learn libraries provided a reliable model for evaluating credit risk.  The 6 different models are listed below:<br>
   <ul>
-    <li>Naive Random Oversampling</li>
-    <li>SMOTE Oversampling</li>
-    <li>Undersampling</li>
-    <li>Combination</li>
-    <li>Balanced Random Forest Classifier</li>
-    <li>Easy Ensemble AdaBoost Classifer</li>
+    <li>RandomOverSampler</li>
+    <li>SMOTE</li>
+    <li>ClusterCentroids</li>
+    <li>SMOTEENN</li>
+    <li>BalancedRandomForestClassifier</li>
+    <li>EasyEnsembleClassifier</li>
     </ul>
 </p>
 
 <h2>Results</h2>
 
-<h3>Naive Random Oversampling</h3>
-<p>
-  
+<h3>RandomOverSampler</h3>
+<p align='center'>
+  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/RandomOverSampler.PNG?raw=true' alt='RandomOverSampler Results Output'><br>
+  <b>Figure 1.1:</b> RandomOverSampler Results Output
 </p>
 
-<h3>SMOTE Oversampling</h3>
-<p>
-  
+<h3>SMOTE</h3>
+<p align='center'>
+  <img src='' alt='SMOTE Results Output'><br>
+  <b>Figure 1.2:</b> SMOTE Results Output
 </p>
 
-<h3>Undersampling</h3>
-<p>
-  
+<h3>ClusterCentroids</h3>
+<p align='center'>
+  <img src='' alt='ClusterCentroids Results Output'><br>
+  <b>Figure 1.3:</b> ClusterCentroidsResults Output
 </p>
 
-<h3>Combination</h3>
-<p>
-  
+<h3>SMOTEENN</h3>
+<p align='center'>
+  <img src='' alt='SMOTEENN Results Output'><br>
+  <b>Figure 1.4:</b> SMOTEENN Results Output
 </p>
 
-<h3>Balanced Random Forest Classifier</h3>
-<p>
-  
+<h3>BalancedRandomForestClassifier</h3>
+<p align='center'>
+  <img src='' alt='BalancedRandomForestClassifier Results Output'><br>
+  <b>Figure 1.5:</b> BalancedRandomForestClassifier Results Output
 </p>
 
-<h3>Easy Ensemble AdaBoost Classifier</h3>
-<p>
-  
+<h3>EasyEnsembleClassifier</h3>
+<p align='center'>
+  <img src='' alt='EasyEnsembleClassifier Results Output'><br>
+  <b>Figure 1.6:</b> EasyEnsembleClassifier Results Output
 </p>
 
 <h2>Summary</h2>
