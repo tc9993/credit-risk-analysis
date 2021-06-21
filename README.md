@@ -19,7 +19,7 @@
 
 <h3>RandomOverSampler</h3>
 <p align='center'>
-  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/RandomOverSampler.PNG?raw=true' alt='RandomOverSampler Results Output'><br>
+  <img src='https://github.com/tc9993/credit-risk-analysis/blob/main/Resources/RandomOverSampler.PNG?raw=true' alt='RandomOverSampler Results Output' width=75% height=75%><br>
   <b>Figure 1.1:</b> RandomOverSampler Results Output
 </p>
 
