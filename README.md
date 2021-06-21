@@ -99,10 +99,33 @@
 
 <h3>Summary of Results</h3>
 <p>
-  
+After reviewing the data, below is a summary of the top 3 <i>balanced accuracy scores</i>:
+<ol>
+  <li>EasyEnsembleClassifier: 93.1%</li>
+  <li>BalancedRandomForestClassifier: 78.9%</li>
+  <li>SMOTE: 66.2%</li>
+</ol>
+Below is a summary of the top 3 <i>high-risk recall rates</i>:
+<ol>
+  <li>EasyEnsembleClassifier: 92%</li>
+  <li>SMOTEENN: 71%</li>
+  <li>BalancedRandomForestClassifier: 70%</li>
+</ol>
+Finally, below is a summary of the top 3 <i>low-risk recall rates</i>:
+<ol>
+  <li>EasyEnsembleClassifier: 94%</li>
+  <li>BalancedRandomForestClassifier: 87%</li>
+  <li>SMOTE: 69%</li>
+</ol>
 </p>
 
 <h3>Recommendation</h3>
 <p>
-  
+Given the imbalanced nature of high- and low-risk loans, whereby there are far fewer high-risk in the population, it is important to ensure that high-risk loans are accurately identified as such.  The high-risk recall rate is the statistic to best assist in identifying a model to use, and the EasyEnsembleClassifier model showed that it most accurately identifies high-risk loans as such, 92% of the time.
+</p>
+<p>
+While it is acceptable for some low-risk loans to be marked as high-risk, which can then be sorted out via a further investigation, it is ideal to correctly label high- and low-risk loans appropriately via the machine learning model.  The low-risk recall rate will tell us how often a low-risk loan was identified as such.  Once again, the EasyEnsembleClassifier model proved to be best in this category with a 94% low-risk recall rate.
+</p>
+<p>
+Overall, the EasyEnsembleClassifier would be my recommendation to identify high- and low- risk loans as it most accurately predicted the loan risk.  To round out the analysis, EasyEnsembleClassifier also finished at the top of the accuracy score with a 93.1% score.  While this is not always the best indicator of performance, given the EasyEnsembleClassifier's performance in low-risk recall and high-risk recall, it is the most accurate of the 6 tested.
 </p>
